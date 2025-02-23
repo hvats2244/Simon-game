@@ -1,0 +1,92 @@
+body{
+    background-color:rgb(4, 4, 58)
+}
+h1{
+    display:flex;
+    justify-content:center;
+
+}
+h3{
+    display:flex;
+    justify-content:center;
+    
+}
+.div1{
+ display :flex;
+ justify-content:center;
+ position: absolute;
+ left:30%;
+ border-radius:2rem;
+ 
+ height:10rem;
+ width:10rem;
+    background-color:pink;
+    border:1rem solid black;
+    
+   
+}
+.div2{
+    display :flex;
+    justify-content:center;
+    position: absolute;
+    left:53%;
+    border-radius:2rem;
+    height:10rem;
+    width:10rem;
+       background-color:rgb(122, 122, 207);
+       border:1rem solid black;
+       
+      
+   }
+   .div3{
+    display :flex;
+    justify-content:center;
+    position: absolute;
+    left:30%;
+    top:50%;
+    border-radius:2rem;
+    height:10rem;
+    width:10rem;
+       background-color:orangered;
+       border:1rem solid black;
+       
+      
+   }
+   .div4{
+    display :flex;
+    justify-content:center;
+    position: absolute;
+    left:53%;
+    top:50%;
+    border-radius:2rem;
+    height:10rem;
+    width:10rem;
+    background-color:rgb(207, 56, 207);
+    border:1rem solid black;
+       
+      
+   }
+   .f{
+    background-color:white;
+
+   }
+   #score{
+    position: absolute;
+  
+    right:80%;
+
+
+   }
+   footer{
+    position: absolute;
+    bottom:0rem;
+
+   
+    color:rgb(25, 197, 194)
+
+
+
+   }
+   h2{
+    size:30%;
+   }
