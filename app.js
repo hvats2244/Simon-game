@@ -9,7 +9,7 @@ let h3 = document.querySelector('h3');
 
 //Step 1
 
-document.addEventListener("keypress", function () {
+document.addEventListener("click", function () {
   if (start == false) {
     console.log("game is start");
     start = true;
@@ -49,7 +49,7 @@ function checkfunc(indx){
     }
   }
   else{
-    h3.innerHTML = `Game Over! Your score was ${ level } . Press any key to restart`; 
+    h3.innerHTML = `Game Over! Your score was ${ level } . click anywere to restart`; 
     highscore();
     let body=document.querySelector("body");
     body.style.backgroundColor = "red";
