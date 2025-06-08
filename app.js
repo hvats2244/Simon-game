@@ -96,6 +96,4 @@ for(btns of allbtns){
     userseq=[];
     level=0;
    
-
->>>>>>> 89f7e71 (updates)
    };
