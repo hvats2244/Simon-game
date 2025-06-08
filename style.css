@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color:rgb(4, 4, 58)
 }
@@ -90,3 +91,155 @@ h3{
    h2{
     size:30%;
    }
+=======
+body{
+    background-color:rgb(0, 0, 0)
+}
+h1{
+    display:flex;
+    justify-content:center;
+
+}
+h3{
+    display:flex;
+    justify-content:center;
+    
+}
+.div1{
+ display :flex;
+ justify-content:center;
+ position: absolute;
+ left:30%;
+ border-radius:2rem;
+ 
+ height:10rem;
+ width:10rem;
+    background-color:pink;
+    border:0.7rem solid rgba(6, 76, 85, 0.994);
+    
+   
+}
+.div2{
+    display :flex;
+    justify-content:center;
+    position: absolute;
+    left:53%;
+    border-radius:2rem;
+    height:10rem;
+    width:10rem;
+       background-color:rgb(122, 122, 207);
+       border:0.7rem solid rgba(6, 76, 85, 0.994);
+       
+      
+   }
+   .div3{
+    display :flex;
+    justify-content:center;
+    position: absolute;
+    left:30%;
+    top:50%;
+    border-radius:2rem;
+    height:10rem;
+    width:10rem;
+       background-color:orangered;
+       border:0.7rem solid rgba(6, 76, 85, 0.994);
+       
+      
+   }
+   .div4{
+    display :flex;
+    justify-content:center;
+    position: absolute;
+    left:53%;
+    top:50%;
+    border-radius:2rem;
+    height:10rem;
+    width:10rem;
+    background-color:rgb(207, 56, 207);
+    border:0.7rem solid rgba(6, 76, 85, 0.994);
+       
+      
+   }
+   .f{
+    background-color:white;
+
+   }
+   #score{
+    position: absolute;
+  
+    right:80%;
+
+
+   }
+   footer{
+    position: absolute;
+    bottom:0rem;
+  font-weight:900;
+   
+    color:rgb(197, 25, 34)
+
+
+
+   }
+   h2{
+    size:30%;
+   }
+
+   
+   @media (max-width: 850px) {
+  body > .div1,
+  body > .div2,
+  body > .div3,
+  body > .div4 {
+    height: 8rem;
+    width: 8rem;
+   
+    
+   
+  }
+  .div1{
+    left:4rem
+  }
+  .div3{
+    left:4rem
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  #score {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+}
+ 
+   @media (max-width: 450px) {
+  body > .div1,
+  body > .div2,
+  body > .div3,
+  body > .div4 {
+    height: 8rem;
+    width: 8rem;
+   
+  }
+  .div1{
+    left:1rem
+  }
+  .div3{
+    left:1rem
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  #score {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+}
+ 
+>>>>>>> 89f7e71 (updates)
